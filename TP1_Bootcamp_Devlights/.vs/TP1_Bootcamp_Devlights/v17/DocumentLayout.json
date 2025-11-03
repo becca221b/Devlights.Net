@@ -1,0 +1,91 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\REBECAO\\source\\repos\\TP1_Bootcamp_Devlights\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{06C70233-F706-4DB3-A355-4685B58C50D8}|TP1_Bootcamp_Devlights.csproj|c:\\users\\rebecao\\source\\repos\\tp1_bootcamp_devlights\\ejercicio11.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06C70233-F706-4DB3-A355-4685B58C50D8}|TP1_Bootcamp_Devlights.csproj|solutionrelative:ejercicio11.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06C70233-F706-4DB3-A355-4685B58C50D8}|TP1_Bootcamp_Devlights.csproj|c:\\users\\rebecao\\source\\repos\\tp1_bootcamp_devlights\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06C70233-F706-4DB3-A355-4685B58C50D8}|TP1_Bootcamp_Devlights.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06C70233-F706-4DB3-A355-4685B58C50D8}|TP1_Bootcamp_Devlights.csproj|c:\\users\\rebecao\\source\\repos\\tp1_bootcamp_devlights\\ejercicio10.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06C70233-F706-4DB3-A355-4685B58C50D8}|TP1_Bootcamp_Devlights.csproj|solutionrelative:ejercicio10.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 100,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Ejercicio11.cs",
+              "DocumentMoniker": "C:\\Users\\REBECAO\\source\\repos\\TP1_Bootcamp_Devlights\\Ejercicio11.cs",
+              "RelativeDocumentMoniker": "Ejercicio11.cs",
+              "ToolTip": "C:\\Users\\REBECAO\\source\\repos\\TP1_Bootcamp_Devlights\\Ejercicio11.cs",
+              "RelativeToolTip": "Ejercicio11.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAASwDYAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-25T14:07:50.878Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Ejercicio10.cs",
+              "DocumentMoniker": "C:\\Users\\REBECAO\\source\\repos\\TP1_Bootcamp_Devlights\\Ejercicio10.cs",
+              "RelativeDocumentMoniker": "Ejercicio10.cs",
+              "ToolTip": "C:\\Users\\REBECAO\\source\\repos\\TP1_Bootcamp_Devlights\\Ejercicio10.cs",
+              "RelativeToolTip": "Ejercicio10.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwAgAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-25T13:30:18.573Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\REBECAO\\source\\repos\\TP1_Bootcamp_Devlights\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\REBECAO\\source\\repos\\TP1_Bootcamp_Devlights\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAgwBMAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T17:45:25.477Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

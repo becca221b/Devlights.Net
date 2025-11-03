@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "TP1_Bootcamp_Devlights/1.0.0": {
+        "runtime": {
+          "TP1_Bootcamp_Devlights.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TP1_Bootcamp_Devlights/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

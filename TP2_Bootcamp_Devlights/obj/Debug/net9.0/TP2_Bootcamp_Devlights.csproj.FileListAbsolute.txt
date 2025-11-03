@@ -1,0 +1,14 @@
+C:\Users\REBECAO\source\repos\TP2_Bootcamp_Devlights\obj\Debug\net9.0\TP2_Bootcamp_Devlights.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\REBECAO\source\repos\TP2_Bootcamp_Devlights\obj\Debug\net9.0\TP2_Bootcamp_Devlights.AssemblyInfoInputs.cache
+C:\Users\REBECAO\source\repos\TP2_Bootcamp_Devlights\obj\Debug\net9.0\TP2_Bootcamp_Devlights.AssemblyInfo.cs
+C:\Users\REBECAO\source\repos\TP2_Bootcamp_Devlights\obj\Debug\net9.0\TP2_Bootcamp_Devlights.csproj.CoreCompileInputs.cache
+C:\Users\REBECAO\source\repos\TP2_Bootcamp_Devlights\bin\Debug\net9.0\TP2_Bootcamp_Devlights.exe
+C:\Users\REBECAO\source\repos\TP2_Bootcamp_Devlights\bin\Debug\net9.0\TP2_Bootcamp_Devlights.deps.json
+C:\Users\REBECAO\source\repos\TP2_Bootcamp_Devlights\bin\Debug\net9.0\TP2_Bootcamp_Devlights.runtimeconfig.json
+C:\Users\REBECAO\source\repos\TP2_Bootcamp_Devlights\bin\Debug\net9.0\TP2_Bootcamp_Devlights.dll
+C:\Users\REBECAO\source\repos\TP2_Bootcamp_Devlights\bin\Debug\net9.0\TP2_Bootcamp_Devlights.pdb
+C:\Users\REBECAO\source\repos\TP2_Bootcamp_Devlights\obj\Debug\net9.0\TP2_Bootcamp_Devlights.dll
+C:\Users\REBECAO\source\repos\TP2_Bootcamp_Devlights\obj\Debug\net9.0\refint\TP2_Bootcamp_Devlights.dll
+C:\Users\REBECAO\source\repos\TP2_Bootcamp_Devlights\obj\Debug\net9.0\TP2_Bootcamp_Devlights.pdb
+C:\Users\REBECAO\source\repos\TP2_Bootcamp_Devlights\obj\Debug\net9.0\TP2_Bootcamp_Devlights.genruntimeconfig.cache
+C:\Users\REBECAO\source\repos\TP2_Bootcamp_Devlights\obj\Debug\net9.0\ref\TP2_Bootcamp_Devlights.dll
