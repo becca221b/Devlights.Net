@@ -251,27 +251,98 @@ class Program
      */
     static void Ejercicio7()
     {
-        
+        int[,] matriz = new int[10,10];
+    
+        for(int i = 0; i<10; i++)
+        {
+            matriz[i,0] = i;
+            matriz[0, i] = i;
+        }
+    
+        for (int i = 1; i < matriz.GetLength(0); i++)
+        {
+            for (int j = 1; j < matriz.GetLength(1); j++)
+            {
+                matriz[i,j] = i * j;
+            }
+          
+        }
+    
+        for (int i = 0; i < matriz.GetLength(0); i++)
+        {
+            for (int j = 0; j < matriz.GetLength(1); j++)
+            {  
+                Console.Write(matriz[i, j] + ", ");
+            }
+            Console.WriteLine();
+            matriz[i, 0] = i;
+            matriz[0, i] = i;
+        }
+    
     }
 
-    /*
-    8. Crear una matriz de 10 x 10, y “esconder” varias ‘X’ en lugares aleatorios (la
-    cantidad que el programador decida, pero no más de la mitad de los lugares
-    disponibles en la matriz). El usuario deberá ingresar el lugar donde cree que hay una
-    X, ingresando la fila y la columna por separado. Informar si acertó o no por cada
-    ingreso. Se debe pedir al usuario ingresar valores por tantas X que se haya
-    guardado. El usuario tiene 3 intentos para fallar. Al finalizar (Ya sea porque se
-
-    terminaron los 3 intentos, o el jugador acertó todas las X) imprimir por pantalla la
-    matriz con sus correspondientes X, mostrando un * donde no haya nada.
-     */
+/*
+ 8. Crear una matriz de 10 x 10, y “esconder” varias ‘X’ en lugares aleatorios (la
+cantidad que el programador decida, pero no más de la mitad de los lugares
+disponibles en la matriz). El usuario deberá ingresar el lugar donde cree que hay una
+X, ingresando la fila y la columna por separado. Informar si acertó o no por cada
+ingreso. Se debe pedir al usuario ingresar valores por tantas X que se haya
+guardado. El usuario tiene 3 intentos para fallar. Al finalizar (Ya sea porque se
+terminaron los 3 intentos, o el jugador acertó todas las X) imprimir por pantalla la
+matriz con sus correspondientes X, mostrando un * donde no haya nada.
+ */
     static void Ejercicio8() {
+        char [,] matriz = new char [10,10];
+        Random random = new Random();
+        int fila;
+        int columna;
+        
+    
+        for (int i = 0; i < 6; i++)
+        {
+            matriz.SetValue('X',random.Next(0,10), random.Next(0, 10));
+        }
+        
+        int contador = 0;
+        while ( contador< 3){
+            Console.WriteLine($"Oportunidad numero {contador+1}");
+            Console.WriteLine("Ingrese la fila donde cree que está la X");
+            fila = int.Parse(Console.ReadLine());
+    
+            Console.WriteLine("Ingrese la fila donde cree que está la X");
+            columna = int.Parse(Console.ReadLine());
+    
+            if (matriz[fila, columna].Equals('X'))
+            {
+                Console.WriteLine("Acertaste!") ;
+            }
+            else
+            {
+                Console.WriteLine("Fallaste");
+            }
+    
+                contador++;
+        }
+    
+        for (int i = 0; i < matriz.GetLength(0); i++)
+        {
+            for (int j = 0; j < matriz.GetLength(1); j++)
+            {
+                if(!matriz[i, j].Equals('X'))
+                {
+                    matriz[i, j] = '*';
+                }
+                Console.Write(matriz[i, j] + " ");
+            }
+            Console.WriteLine();
+            
+        }
     
     }
 
 
     /*
-    Diccionario de calificaciones: Crear un diccionario donde la clave sea el nombre del
+    9. Diccionario de calificaciones: Crear un diccionario donde la clave sea el nombre del
     alumno y el valor sea su nota. El programa debe permitir:
     a. Agregar alumnos y sus notas.
     b. Mostrar el promedio general del curso.
@@ -305,7 +376,23 @@ class Program
             Console.WriteLine($"El alumno con mejor nota es {mejorNota.Key} con una nota de {mejorNota.Value}");
             Console.WriteLine($"El alumno con peor nota es {peorNota.Key} con una nota de {peorNota.Value}");
 
+    }
+    
+    static void Ejercicio10()
+    {
+        Queue<string> cola = new Queue<string>();
+        cola.Enqueue("Pepito");
+        cola.Enqueue("Kike");
+        cola.Enqueue("Pepa");
+        
+    
+        while (cola.Count > 0) 
+        {
+            Console.WriteLine($"{cola.Dequeue()} está siendo atendido") ;
+            Console.WriteLine($"Quedan {cola.Count} elementos");
         }
+    
+    }
 
     /*
      EXTRA
